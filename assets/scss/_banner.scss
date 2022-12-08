@@ -1,0 +1,133 @@
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url("../img/banner/b2.jpg");
+  width: 100%;
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  h4 {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 0;
+
+    span {
+      color: #ef3636;
+    }
+  }
+
+  button:hover {
+    background-color: #088178;
+    color: #fff;
+  }
+}
+
+// Banner2
+
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  .banner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 540px;
+    height: 50vh;
+    background-image: url("../img/banner/b17.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+
+    button:hover {
+      color: #ffb74a;
+      background-color: #fff;
+    }
+  }
+
+  .banner-box-2 {
+    background-image: url("../img/banner/b10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    button:hover {
+      color: #293b37;
+    }
+  }
+
+  h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+  h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+}
+
+// Banner3
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+
+  .banner-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    min-width: 30%;
+    height: 30vh;
+    background-image: url("../img/banner/b7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 24px;
+  }
+
+  h3 {
+    color: #ef3636;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  .banner-box2 {
+    background-image: url("../img/banner/b4.jpg");
+  }
+
+  .banner-box3 {
+    background-image: url("../img/banner/b18.jpg");
+  }
+}
