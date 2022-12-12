@@ -185,6 +185,27 @@
       width: 100%;
     }
   }
+
+  // Single product
+  #prod-details {
+    flex-direction: column;
+
+    .single-prod-img {
+      width: 100%;
+      margin-right: 0px;
+    }
+    .single-prod-details {
+      width: 100%;
+
+      h2 {
+        line-height: 54px;
+      }
+
+      h4 {
+        padding: 20px 0 10px 0;
+      }
+    }
+  }
 }
 
 @media (max-width: 340px) {
@@ -192,6 +213,18 @@
     .feature-card {
       width: 160px;
       margin: 10px 0;
+    }
+  }
+  #newsletter {
+    .form {
+      width: 100%;
+    }
+    input {
+      padding: 8px 12px;
+      font-size: 12px;
+    }
+    button {
+      padding: 10px 20px;
     }
   }
 }
