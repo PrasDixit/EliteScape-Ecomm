@@ -139,6 +139,8 @@
   }
 }
 
+//! Small Screen Devices
+
 @media (max-width: 480px) {
   #header {
     padding: 10px 30px;
@@ -190,7 +192,7 @@
     }
   }
 
-  // Single product
+  //* Single product
   #prod-details {
     flex-direction: column;
 
@@ -211,7 +213,7 @@
     }
   }
 
-  // Blog
+  //* Blog
   #blog {
     padding: 100px 20px 0 20px;
     .blog-box {
@@ -229,7 +231,33 @@
       text-align: justify;
     }
   }
+
+  //* About
+  #about {
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    div {
+      text-align: justify;
+      padding-left: 0px;
+
+      h2 {
+        text-align: center;
+      }
+    }
+  }
+  #about-app {
+    .video {
+      width: 100%;
+    }
+  }
 }
+
+//! Very small screen
 
 @media (max-width: 340px) {
   #featured {

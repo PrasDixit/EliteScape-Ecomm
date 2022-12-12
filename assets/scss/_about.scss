@@ -1,0 +1,30 @@
+#about-header {
+  background-image: url("../img/about/banner.png");
+}
+
+#about {
+  display: flex;
+  align-items: center;
+
+  img {
+    width: 50%;
+  }
+
+  div {
+    padding-left: 40px;
+  }
+}
+
+#about-app {
+  text-align: center;
+
+  video {
+    border-radius: 20px;
+  }
+
+  .video {
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+  }
+}

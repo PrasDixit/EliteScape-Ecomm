@@ -10,6 +10,7 @@
 @import "shop";
 @import "singleprod";
 @import "blog";
+@import "about";
 @import "mediaquery";
 
 * {
@@ -37,7 +38,8 @@ ul {
   list-style: none;
 }
 
-img {
+img,
+video {
   max-width: 100%;
 }
 
