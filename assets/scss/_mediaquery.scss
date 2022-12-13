@@ -31,6 +31,11 @@
       height: 20vh;
     }
   }
+
+  // Cart
+  #cart {
+    padding: 10px 20px;
+  }
 }
 
 //! Tablet
@@ -148,6 +153,11 @@
     form {
       width: 50%;
     }
+  }
+
+  // Cart
+  #cart {
+    overflow-x: auto;
   }
 }
 
@@ -290,6 +300,16 @@
     form {
       width: 100%;
       margin-bottom: 30px;
+    }
+  }
+
+  // Cart
+  #cart-add {
+    flex-direction: column;
+
+    #coupon,
+    #subtotal {
+      width: 100%;
     }
   }
 }
